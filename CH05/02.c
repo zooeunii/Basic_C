@@ -5,7 +5,7 @@ int main()
 {
 	double x, y;
 	double add, minus, multiply, quotient;
-	printf("½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì‹¤ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%lf %lf", &x, &y);
 
 	add = x + y;
