@@ -7,15 +7,15 @@ int main()
 	double v;
 	double E;
 
-	printf("Áú·®(kg): ");
+	printf("ì§ˆëŸ‰(kg): ");
 	scanf("%lf", &m);
 
-	printf("¼Óµµ(m/s): ");
+	printf("ì†ë„(m/s): ");
 	scanf("%lf", &v);
 
 	E = 0.5 * m * v * v;
 
-	printf("¿îµ¿¿¡³ÊÁö(J): %lf\n", E);
+	printf("ìš´ë™ì—ë„ˆì§€(J): %lf\n", E);
 
 	return 0;
 }
