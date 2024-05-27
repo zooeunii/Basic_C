@@ -5,10 +5,10 @@ int main()
 {
 	int x, i;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &x);
 
-	printf("¾à¼ö: ");
+	printf("ì•½ìˆ˜: ");
 	for (i = 1;i <= x;i++)
 		if (x % i == 0)
 			printf("%d ", i);
