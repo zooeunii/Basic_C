@@ -6,11 +6,11 @@ int main()
 	int x=10, y=10;
 
 	printf("x=%d\n", x);
-	printf("++xÀÇ °ª=%d\n", ++x);
+	printf("++xì˜ ê°’=%d\n", ++x);
 	printf("x=%d\n\n", x);
 
 	printf("y=%d\n", y);
-	printf("y++ÀÇ °ª=%d\n", y++);
+	printf("y++ì˜ ê°’=%d\n", y++);
 	printf("y=%d\n\n", y);
 
 	return 0;
