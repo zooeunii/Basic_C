@@ -6,13 +6,13 @@ int main()
 	int n, i;
 	double sum = 0;
 
-	printf("Ç×ÀÇ °³¼ö: ");
+	printf("í•­ì˜ ê°œìˆ˜: ");
 	scanf("%d", &n);
 
 	for (i = 1;i <= n;i++)
 		sum = sum + (1.0 / i);
 
-	printf("¼ö¿­ÀÇ ÇÕ=%lf", sum);
+	printf("ìˆ˜ì—´ì˜ í•©=%d", sum);
 
 	return 0;
 }
