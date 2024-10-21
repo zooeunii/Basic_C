@@ -5,9 +5,9 @@ int main()
 {
 	int i = 10;
 
-	printf("ÇÔ¼ö È£ÃâÀü i = %d\n", i);
+	printf("í•¨ìˆ˜ í˜¸ì¶œì „ i = %d\n", i);
 	inc(i);
-	printf("ÇÔ¼ö È£ÃâÈÄ i = %d\n", i);
+	printf("í•¨ìˆ˜ í˜¸ì¶œí›„ i = %d\n", i);
 
 	return 0;
 }
