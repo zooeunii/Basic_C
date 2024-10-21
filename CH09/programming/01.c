@@ -14,23 +14,23 @@ int main()
 	
 	while (1)
 	{
-		printf("¿¬»êÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("ì—°ì‚°ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 		scanf("%d %c %d", &x, &op, &y);
 
 		if (op == '+') {
-			printf("¿¬»êÀÇ °á°ú: %d\n", add(x, y));
+			printf("ì—°ì‚°ì˜ ê²°ê³¼: %d\n", add(x, y));
 		}
 		else if (op == '-') {
-			printf("¿¬»êÀÇ °á°ú: %d\n", sub(x, y));
+			printf("ì—°ì‚°ì˜ ê²°ê³¼: %d\n", sub(x, y));
 		}
 		else if (op == '*') {
-			printf("¿¬»êÀÇ °á°ú: %d\n", mul(x, y));
+			printf("ì—°ì‚°ì˜ ê²°ê³¼: %d\n", mul(x, y));
 		}
 		else if (op == '/') {
-			printf("¿¬»êÀÇ °á°ú: %d\n", div(x, y));
+			printf("ì—°ì‚°ì˜ ê²°ê³¼: %d\n", div(x, y));
 		}
 		else {
-			printf("Àß¸øµÈ ¿¬»êÀÚÀÔ´Ï´Ù.\n");
+			printf("ì˜ëª»ëœ ì—°ì‚°ìì…ë‹ˆë‹¤.\n");
 		}
 	}
 	return 0;
@@ -39,31 +39,31 @@ int main()
 int add(int a, int b) {
 	static int count = 0;
 	count++;
-	printf("µ¡¼ÀÀº ÃÑ %d¹ø ½ÇÇàµÇ¾ú½À´Ï´Ù.\n", count);
+	printf("ë§ì…ˆì€ ì´ %dë²ˆ ì‹¤í–‰ë˜ì—ˆìŠµë‹ˆë‹¤.\n", count);
 	return a + b;
 }
 
 int sub(int a, int b) {
 	static int count = 0;
 	count++;
-	printf("»¬¼ÀÀº ÃÑ %d¹ø ½ÇÇàµÇ¾ú½À´Ï´Ù.\n", count);
+	printf("ëº„ì…ˆì€ ì´ %dë²ˆ ì‹¤í–‰ë˜ì—ˆìŠµë‹ˆë‹¤.\n", count);
 	return a - b;
 }
 
 int mul(int a, int b) {
 	static int count = 0;
 	count++;
-	printf("°ö¼ÀÀº ÃÑ %d¹ø ½ÇÇàµÇ¾ú½À´Ï´Ù.\n", count);
+	printf("ê³±ì…ˆì€ ì´ %dë²ˆ ì‹¤í–‰ë˜ì—ˆìŠµë‹ˆë‹¤.\n", count);
 	return a * b;
 }
 
 int div(int a, int b) {
 	static int count = 0;
 	count++;
-	printf("³ª´°¼ÀÀº ÃÑ %d¹ø ½ÇÇàµÇ¾ú½À´Ï´Ù.\n", count);
+	printf("ë‚˜ëˆ—ì…ˆì€ ì´ %dë²ˆ ì‹¤í–‰ë˜ì—ˆìŠµë‹ˆë‹¤.\n", count);
 
 	if (b == 0) {
-		printf("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.\n");
+		printf("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
 	}
 
 	return a / b;
