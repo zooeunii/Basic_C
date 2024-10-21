@@ -7,9 +7,9 @@ int main()
 	int b;
 	int p;
 	
-	printf("¹Ø: ");
+	printf("ë°‘: ");
 	scanf("%d", &b);
-	printf("Áö¼ö: ");
+	printf("ì§€ìˆ˜: ");
 	scanf("%d", &p);
 
 	printf("%d^%d = %d", b, p, power(b, p));
