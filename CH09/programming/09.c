@@ -6,7 +6,7 @@ int main()
 	char sen[100];
 	int count = 0;
 
-	printf("¹®ÀåÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ë¬¸ì¥ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 
 	sen[count] = getchar();
 	while (sen[count] != '\n') {
