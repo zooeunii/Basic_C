@@ -6,7 +6,7 @@ int get_random();
 
 int main()
 {
-	printf("ÃÊ±âÈ­ ½ÇÇà\n");
+	printf("ì´ˆê¸°í™” ì‹¤í–‰");
 	printf("%d\n", get_random());
 	printf("%d\n", get_random());
 	printf("%d\n", get_random());
