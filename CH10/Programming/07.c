@@ -11,13 +11,13 @@ int main()
 		for (int j = 0;j < COLS;j++) {
 			ROWS_SUM += s[i][j];
 		}
-		printf("%dÇàÀÇ ÇÕ°è: %d\n", i, ROWS_SUM);
+		printf("%dí–‰ì˜ í•©ê³„: %d\n", i, ROWS_SUM);
 	}
 	for (int i = 0;i < COLS;i++) {
 		int COLS_SUM = 0;
 		for (int j = 0;j < ROWS;j++) {
 			COLS_SUM += s[j][i];
 		}
-		printf("%d¿­ÀÇ ÇÕ°è: %d\n", i, COLS_SUM);
+		printf("%dì—´ì˜ í•©ê³„", i, COLS_SUM);
 	}
 }
