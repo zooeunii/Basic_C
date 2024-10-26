@@ -9,7 +9,7 @@ int main()
 	int total_sale;
 
 	total_sale = sum(sales);
-	printf("ÃÑ ¸ÅÃâÀ» %dÀÔ´Ï´Ù.\n", total_sale);
+	printf("ì´ ë§¤ì¶œì€ %dì…ë‹ˆë‹¤.\n", total_sale);
 
 	return 0;
 }
