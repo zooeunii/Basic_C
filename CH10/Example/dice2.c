@@ -11,7 +11,7 @@ int main()
 		++dice[rand() % 6 ];
 
 	printf("==================\n");
-	printf("¼ıÀÚ \tºóµµ\n");
+	printf("ìˆ«ì \të¹ˆë„\n");
 	printf("==================\n");
 
 	for (int i = 0;i < 6;i++) {
