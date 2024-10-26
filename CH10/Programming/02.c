@@ -7,12 +7,12 @@ int minimum();
 int main()
 {
 	int x[10] = { 0 };
-	srand((unsigned)time(NULL));
+	srand(time(NULL));
 	for (int i = 0;i < 10;i++) {
 		x[i] = rand();
 	}
-	printf("ÃÖ´ë°ªÀº %d\n", maximum(x));
-	printf("ÃÖ¼Ò°ªÀº %d\n", minimum(x));
+	printf("ìµœëŒ€ê°’ì€ %d\n", maximum(x));
+	printf("ìµœì†Œê°’ì€ %d\n", minimum(x));
 
 	return 0;
 }
