@@ -15,9 +15,9 @@ int main()
 	printf("\n\n");
 
 	if (array_equal(a, b, size))
-		printf("2°³ÀÇ ¹è¿­Àº °°À½\n");
+		printf("2ê°œì˜ ë°°ì—´ì€ ê°™ìŒ\n");
 	else
-		printf("2°³ÀÇ ¹è¿­Àº ´Ù¸§\n");
+		printf("2ê°œì˜ ë°°ì—´ì€ ë‹¤ë¦„\n");
 
 	return 0;
 }
