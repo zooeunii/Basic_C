@@ -16,7 +16,7 @@ int main()
 	for (int i = 0;i < size;i++)
 		printf("%d ", b[i]);
 	printf("\n\n");
-	printf("¹è¿­ÀÌ º¹»çµÇ¾úÀ½\n");
+	printf("ë°°ì—´ì´ ë³µì‚¬ë˜ì—ˆìŒ\n");
 
 	return 0;
 }
