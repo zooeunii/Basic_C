@@ -16,7 +16,7 @@ int main()
 		if (max < freq[j])
 			max = j;
 
-	printf("°¡Àå ¸¹ÀÌ ³ª¿Â ¼ö = %d\n", max);
+	printf("ê°€ìž¥ ë§Žì´ ë‚˜ì˜¨ ìˆ˜ = %d\n", max);
 	
 	return 0;
 }
