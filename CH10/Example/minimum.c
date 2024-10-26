@@ -24,5 +24,5 @@ int main()
 		if (prices[i] < minimum)
 			minimum = prices[i];
 	}
-	printf("ÃÖ¼Ú°ªÀº %dÀÔ´Ï´Ù.", minimum);
+	printf("ìµœì†Œê°’ì€ %dìž…ë‹ˆë‹¤.", minimum);
 }
